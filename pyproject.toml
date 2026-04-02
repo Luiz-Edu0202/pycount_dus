@@ -28,6 +28,7 @@ dev = [
 
 
 [tool.semantic_release]
+allow_zero_version = true
 version_toml = [
     "pyproject.toml:tool.poetry.version",
 ]
